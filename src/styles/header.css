@@ -31,11 +31,37 @@
 .brand__and__navigation nav ul li a {
     display: inline-block;
     margin: 0 15px;
+    font-family: var(--title-font-family);
+    font-size: large;
+    color: var(--primary-text-color);
+}
+
+.brand__and__navigation nav ul li a:hover {
+    color: var(--highlight-primary-color);
 }
 
 .initial__call {
     display: flex;
-    flex-direction: column;
-    width: 80%;
+    flex-direction: row;
+    background-color: black;
+}
+
+.initial__call-img {
+    width: 200vh;
+}
+
+.initial__call-img img {
+    transform: scaleX(-1);
+}
+
+.initial__call-text {
     margin: auto;
+}
+
+.initial__call h1 {
+    margin-left: 20vh;
+    text-align: center;
+    font-size: 4vh;
+    font-family: var(--title-font-family);
+    color: var(--primary-text-color);
 }
