@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --default-primary-color: #1E3A8A;
+    --highlight-primary-color: #F97316;
+    --primary-text-color: white;
+    --secondary-text-color: #F3F4F6;
+    --title-font-family: "Poppins", sans-serif;
+    --text-font-family: "Lora", sans-serif;
+}

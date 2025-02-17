@@ -1,0 +1,41 @@
+.brand__and__navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--default-primary-color);
+    width: 100%;
+    height: 12vh;
+}
+
+.brand__and__navigation .brand {
+    width: 15vh;
+    height: 100%;
+    padding: 10px 15px 15px;
+}
+
+.brand__and__navigation .brand a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.brand__and__navigation nav {
+    display: block;
+    margin: auto;
+}
+
+.brand__and__navigation nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.brand__and__navigation nav ul li a {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.initial__call {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
