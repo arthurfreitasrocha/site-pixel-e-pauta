@@ -1,0 +1,24 @@
+footer {
+    background-color: var(--highlight-primary-color);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35vh;
+    height: 8vh;
+}
+
+.footer__all-rights-reserved, .footer__social-media {
+    text-align: center;
+    color: var(--thirty-text-color);
+    width: 30%;
+    height: 50%;
+    margin: auto 0;
+}
+
+.footer__all-rights-reserved span {
+    display: block;
+    font-family: var(--title-font-family);
+}
+
+.footer__social-media div a {
+    margin: 0 3px;
+}
