@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     bottom: 0;
-    margin-top: 12vh;
+    margin-top: 8vh;
     width: 25vh;
     background-color: var(--default-primary-color);
 }
@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 70%;
+    margin-top: 1vh;
 }
 
 .sidebar__most-popular, .sidebar__categories {
